@@ -82,74 +82,61 @@ function resetFruitcounter() {
             <section>
                 <label
                     htmlFor="Voornaam"
-
                 >Voornaam</label>
                 <input
                     type="text"
-
                 />
             </section>
-
             <section>
                 <label
                     htmlFor="Achternaam"
-
                 >Achternaam</label>
                 <input
                     type="text"
-
                 />
             </section>
-
             <section>
                 <label
                     htmlFor="Leeftijd"
-
                 >Leeftijd</label>
                 <input
                     type="number"
-
-
                 />
             </section>
-
             <section>
                 <label
                 htmlFor="Postcode"
-
                 >Postcode</label>
                 <input
                 type="text"
-
                 />
             </section>
-
             <section>
-                <label>Bezorgfrequentie</label>
-                <input/>
+                <label>Bezorgfrequentie</label><br/>
+                <select id="delivery" name="delivery">
+                    <option value="weekly">iedere week</option>
+                    <option value="bi-weekly">om de week</option>
+                    <option value="monthly">iedere maand</option>
+                </select>
             </section>
-
             <section>
-                <label></label>
-                <input/>
+                <input type="checkbox" id="morning" name="morning" value="daytime"/>
+                    <label htmlFor="morning">Overdag</label><br/>
+                    <input type="checkbox" id="night" name="night" value="nighttime" />
+                        <label htmlFor="night">'s Avonds</label>
             </section>
-
             <section>
                 <label>Opmerking</label>
-                <input/>
+                <input type="comment"/>
             </section>
-
             <section>
-                <label></label>
-                <input/>
+                <input type="checkbox" id="conditions" name="conditions" value="conditions-agreement"/>
+                <label htmlFor="conditions">Ik ga akkoord met de voorwaarden</label>
             </section>
-
             <button>
                 Verzend
             </button>
-
         </form>
-
     </>
   );
 }
