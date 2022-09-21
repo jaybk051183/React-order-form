@@ -51,28 +51,28 @@ console.log(`Bestelling - aardbeien: ${strawberry}, bananen: ${banana}, appel: $
                 <h2>🍓 Aardbeien</h2>
                 <Counter
                     fruitCount={strawberry}
-                    setFruitcount={setStrawberry}
+                    setFruitCount={setStrawberry}
                 />
             </article>
             <article>
                 <h2>🍌 Bananen</h2>
                 <Counter
                     fruitCount={banana}
-                    setFruitcount={setBanana}
+                    setFruitCount={setBanana}
                 />
             </article>
             <article>
                 <h2>🍏 Appels</h2>
                 <Counter
                     fruitCount={apple}
-                    setFruitcount={setApple}
+                    setFruitCount={setApple}
                 />
             </article>
             <article>
                 <h2>🥝 Kiwi's</h2>
                 <Counter
                     fruitCount={kiwi}
-                    setFruitcount={setKiwi}
+                    setFruitCount={setKiwi}
                 />
             </article>
             <Button
@@ -86,7 +86,7 @@ console.log(`Bestelling - aardbeien: ${strawberry}, bananen: ${banana}, appel: $
             <section>
                 <Inputfield
                 name="name"
-                label="name-field"
+                label="Naam"
                 inputType="text"
                 value={formState.name}
                 changeHandler={handleFormChange}
@@ -95,7 +95,7 @@ console.log(`Bestelling - aardbeien: ${strawberry}, bananen: ${banana}, appel: $
             <section>
                 <Inputfield
                     name="surname"
-                    label="surname-field"
+                    label="Voornaam"
                     inputType="text"
                     value={formState.surname}
                     changeHandler={handleFormChange}
@@ -104,7 +104,7 @@ console.log(`Bestelling - aardbeien: ${strawberry}, bananen: ${banana}, appel: $
             <section>
                 <Inputfield
                     name="age"
-                    label="age-field"
+                    label="Leeftijd"
                     inputType="number"
                     value={formState.age}
                     changeHandler={handleFormChange}
@@ -113,7 +113,7 @@ console.log(`Bestelling - aardbeien: ${strawberry}, bananen: ${banana}, appel: $
             <section>
                 <Inputfield
                     name="zipcode"
-                    label="zipcode-field"
+                    label="Postcode"
                     inputType="text"
                     value={formState.zipcode}
                     changeHandler={handleFormChange}
